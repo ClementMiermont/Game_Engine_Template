@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "GLAD",
+					"jsonFile" : "directory-GLAD-Debug-bc2aafcd2f5da91cc1cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "glad",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "GAME_ENGINE_TEMPLATE",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GAME_ENGINE_TEMPLATE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GAME_ENGINE_TEMPLATE-Debug-19c79bb009a428ac00a6.json",
+					"name" : "GAME_ENGINE_TEMPLATE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GAME_ENGINE_TEMPLATE_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GAME_ENGINE_TEMPLATE_autogen-Debug-da1e889a83d36faffc66.json",
+					"name" : "GAME_ENGINE_TEMPLATE_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GAME_ENGINE_TEMPLATE_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GAME_ENGINE_TEMPLATE_autogen_timestamp_deps-Debug-b45143e74105772bcb48.json",
+					"name" : "GAME_ENGINE_TEMPLATE_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@eac475c4e9e187b33184",
+					"jsonFile" : "target-glad-Debug-3c7e7caa04f8a1c22e92.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/cmake-build-debug",
+		"source" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

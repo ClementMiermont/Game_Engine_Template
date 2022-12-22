@@ -1,0 +1,17 @@
+//
+// Created by cleme on 20/12/2022.
+//
+
+#ifndef GAME_ENGINE_TEMPLATE_UI_RENDERER_H
+#define GAME_ENGINE_TEMPLATE_UI_RENDERER_H
+
+
+class UI_RENDERER {
+
+
+
+
+};
+
+
+#endif //GAME_ENGINE_TEMPLATE_UI_RENDERER_H
