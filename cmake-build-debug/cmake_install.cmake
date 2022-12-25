@@ -1,4 +1,4 @@
-# Install script for directory: E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE
+# Install script for directory: D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/cmake-build-debug/GLAD/cmake_install.cmake")
+  include("D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/cmake-build-debug/GLAD/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,34 @@
+"D:\Jetbrains CLION\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Jetbrains CLION/CLion 2022.3.1/bin/ninja/win/ninja.exe" -G Ninja -S D:\PROJECT_LIBRARY\CLION\GAME_ENGINE_TEMPLATE -B D:\PROJECT_LIBRARY\CLION\GAME_ENGINE_TEMPLATE\cmake-build-debug
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/msys64/mingw64/bin/cc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/msys64/mingw64/bin/c++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMAKE_CURRENT_SOURCE_DIR: D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE
+-- SDL2 library found: C:/msys64/mingw64/lib/libSDL2.dll.a
+-- SDL2 include directory found at : 
+-- GLFW library found: C:/msys64/mingw64/lib/libglfw3.dll.a
+-- GLFW include directory found at : C:/msys64/mingw64/include/GLFW
+-- GLEW library found: C:/msys64/mingw64/lib/libglew32.dll.a
+-- GLEW include directory found at : C:/msys64/mingw64/include/GL
+-- CMAKE_MODULE_PATH = C:/Qt/6.4.1/mingw_64/lib/cmake
+-- CMAKE_PREFIX_PATH = C:/Qt/6.4.1/mingw_64/lib/cmake
+-- Qt_INCLUDE_PATH = C:/Qt/6.4.1/mingw_64/include
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE  
+-- Found WrapVulkanHeaders: C:/msys64/mingw64/include  
+-- Qt6 found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/cmake-build-debug

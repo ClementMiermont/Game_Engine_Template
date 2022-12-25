@@ -54,11 +54,11 @@ add_subdirectory(glad)                                                          
                                                                                                             #
 #=============== INCLUSION OF Qt6 ==========================================================================#
                                                                                                             #
-set (CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "C:/Qt/6.4.1/mingw81_64/lib/cmake")                             #
-set(CMAKE_PREFIX_PATH "C:/Qt/6.4.1/mingw81_64/lib/cmake")                                                   #
+set (CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "C:/Qt/6.4.1/mingw_64/lib/cmake")                               #
+set(CMAKE_PREFIX_PATH "C:/Qt/6.4.1/mingw_64/lib/cmake")                                                     #
 message(STATUS "CMAKE_MODULE_PATH = ${CMAKE_MODULE_PATH}")                                                  #
 message(STATUS "CMAKE_PREFIX_PATH = ${CMAKE_PREFIX_PATH}")                                                  #
-set(Qt_INCLUDE_PATH "C:/Qt/6.4.1/mingw81_64/include")                                                       #
+set(Qt_INCLUDE_PATH "C:/Qt/6.4.1/mingw_64/include")                                                         #
 include_directories(GAME_ENGINE_TEMPLATE ${Qt_INCLUDE_PATH})                                                #
 message(STATUS "Qt_INCLUDE_PATH = ${Qt_INCLUDE_PATH}")                                                      #
                                                                                                             #

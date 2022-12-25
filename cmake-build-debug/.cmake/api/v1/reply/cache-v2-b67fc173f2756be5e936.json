@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/cmake-build-debug"
+			"value" : "d:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "23"
+			"value" : "24"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -94,6 +94,18 @@
 			"value" : "2"
 		},
 		{
+			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable colored diagnostics throughout."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
 			"name" : "CMAKE_COMMAND",
 			"properties" : 
 			[
@@ -103,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/cleme/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/bin/cmake.exe"
+			"value" : "D:/Jetbrains CLION/CLion 2022.3.1/bin/cmake/win/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -115,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/cleme/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/bin/cpack.exe"
+			"value" : "D:/Jetbrains CLION/CLion 2022.3.1/bin/cmake/win/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -127,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/cleme/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/bin/ctest.exe"
+			"value" : "D:/Jetbrains CLION/CLion 2022.3.1/bin/cmake/win/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -554,6 +566,18 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/cmake-build-debug/CMakeFiles/pkgRedirects"
+		},
+		{
 			"name" : "CMAKE_GENERATOR",
 			"properties" : 
 			[
@@ -626,18 +650,6 @@
 			"value" : "1"
 		},
 		{
-			"name" : "CMAKE_HAVE_PTHREAD_H",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Have include pthread.h"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "1"
-		},
-		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -647,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE"
+			"value" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -939,11 +951,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "make program"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "C:/Users/cleme/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/ninja/win/ninja.exe"
+			"type" : "FILEPATH",
+			"value" : "D:/Jetbrains CLION/CLion 2022.3.1/bin/ninja/win/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1283,7 +1295,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/cleme/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23"
+			"value" : "D:/Jetbrains CLION/CLion 2022.3.1/bin/cmake/win/share/cmake-3.24"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1510,30 +1522,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "DEBILE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for DEBILE."
-				}
-			],
-			"type" : "PATH",
-			"value" : "DEBILE_DIR-NOTFOUND"
-		},
-		{
-			"name" : "DESIRED_QT_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Pick a version of Qt to use: 3 or 4"
-				}
-			],
-			"type" : "STRING",
-			"value" : "3"
-		},
-		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
 			"properties" : 
 			[
@@ -1579,7 +1567,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/cmake-build-debug"
+			"value" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/cmake-build-debug"
 		},
 		{
 			"name" : "GAME_ENGINE_TEMPLATE_IS_TOP_LEVEL",
@@ -1603,19 +1591,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE"
-		},
-		{
-			"name" : "GLAD_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "GLAD_LIBRARY-NOTFOUND"
+			"value" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE"
 		},
 		{
 			"name" : "GLEW_LIBRARY",
@@ -1642,18 +1618,6 @@
 			"value" : "C:/msys64/mingw64/lib/libglfw3.dll.a"
 		},
 		{
-			"name" : "Glad_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/cmake-build-debug/libglad.a"
-		},
-		{
 			"name" : "HAVE_STDATOMIC",
 			"properties" : 
 			[
@@ -1664,50 +1628,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "QT3_QGLOBAL_H_FILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/msys64/mingw64/include"
-		},
-		{
-			"name" : "QT4_QGLOBAL_H_FILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT4_QGLOBAL_H_FILE-NOTFOUND"
-		},
-		{
-			"name" : "QT6_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for QT6."
-				}
-			],
-			"type" : "PATH",
-			"value" : "QT6_DIR-NOTFOUND"
 		},
 		{
 			"name" : "QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH",
@@ -5982,166 +5902,6 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "QT_INCLUDE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "path to Qt3 include directory"
-				}
-			],
-			"type" : "PATH",
-			"value" : "QT_INCLUDE_DIR-NOTFOUND"
-		},
-		{
-			"name" : "QT_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "QT_MOC_EXECUTABLE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_MOC_EXECUTABLE-NOTFOUND"
-		},
-		{
-			"name" : "QT_QASSISTANTCLIENT_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_QASSISTANTCLIENT_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "QT_QMAKE_EXECUTABLE_FINDQT",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_QMAKE_EXECUTABLE_FINDQT-NOTFOUND"
-		},
-		{
-			"name" : "QT_QTMAIN_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "This Library is only needed by and included with Qt3 on MSWindows. It should be NOTFOUND, undefined or IGNORE otherwise."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_QTMAIN_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "QT_QT_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_QT_LIBRARY-NOTFOUND"
-		},
-		{
-			"name" : "QT_UIC_EXECUTABLE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "QT_UIC_EXECUTABLE-NOTFOUND"
-		},
-		{
-			"name" : "Qt5_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt5."
-				}
-			],
-			"type" : "PATH",
-			"value" : "Qt5_DIR-NOTFOUND"
-		},
-		{
-			"name" : "Qt6",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "Qt6-NOTFOUND"
-		},
-		{
-			"name" : "Qt6CORE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt6CORE."
-				}
-			],
-			"type" : "PATH",
-			"value" : "Qt6CORE_DIR-NOTFOUND"
-		},
-		{
 			"name" : "Qt6CoreTools_DIR",
 			"properties" : 
 			[
@@ -6164,18 +5924,6 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Qt/6.4.1/mingw_64/lib/cmake/Qt6Core"
-		},
-		{
-			"name" : "Qt6Core_LIBRARY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "Qt6Core_LIBRARY-NOTFOUND"
 		},
 		{
 			"name" : "Qt6EntryPointPrivate_DIR",
@@ -6212,18 +5960,6 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/Qt/6.4.1/mingw_64/lib/cmake/Qt6Gui"
-		},
-		{
-			"name" : "Qt6W_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt6W."
-				}
-			],
-			"type" : "PATH",
-			"value" : "Qt6W_DIR-NOTFOUND"
 		},
 		{
 			"name" : "Qt6WidgetsTools_DIR",
@@ -6274,18 +6010,6 @@
 			"value" : "C:/Qt/6.4.1/mingw_64/lib/cmake/Qt6"
 		},
 		{
-			"name" : "Qt_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for Qt."
-				}
-			],
-			"type" : "PATH",
-			"value" : "Qt_DIR-NOTFOUND"
-		},
-		{
 			"name" : "SDL2_DIR",
 			"properties" : 
 			[
@@ -6296,18 +6020,6 @@
 			],
 			"type" : "PATH",
 			"value" : "C:/msys64/mingw64/lib/cmake/SDL2"
-		},
-		{
-			"name" : "SDL2_INCLUDE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/include"
 		},
 		{
 			"name" : "SDL2_LIBRARY",
@@ -6398,6 +6110,18 @@
 			"value" : "C:/Qt/6.4.1/mingw_64/bin/windeployqt.exe"
 		},
 		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
 			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
 			"properties" : 
 			[
@@ -6408,54 +6132,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "C:/Program Files (x86)/GAME_ENGINE_TEMPLATE"
-		},
-		{
-			"name" : "glad_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for glad."
-				}
-			],
-			"type" : "PATH",
-			"value" : "glad_DIR-NOTFOUND"
-		},
-		{
-			"name" : "glfw3",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "glfw3-NOTFOUND"
-		},
-		{
-			"name" : "glfw3_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for glfw3."
-				}
-			],
-			"type" : "PATH",
-			"value" : "C:/msys64/mingw64/lib/cmake/glfw3"
-		},
-		{
-			"name" : "qt6_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for qt6."
-				}
-			],
-			"type" : "PATH",
-			"value" : "qt6_DIR-NOTFOUND"
 		}
 	],
 	"kind" : "cache",

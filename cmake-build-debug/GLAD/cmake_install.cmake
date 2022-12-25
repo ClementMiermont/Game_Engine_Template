@@ -1,4 +1,4 @@
-# Install script for directory: E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/glad
+# Install script for directory: D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

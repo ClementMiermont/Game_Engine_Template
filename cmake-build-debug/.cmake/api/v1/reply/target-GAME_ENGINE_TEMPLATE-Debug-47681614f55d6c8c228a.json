@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/executable/GAME_ENGINE_TEMPLATE.exe"
+			"path" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/executable/GAME_ENGINE_TEMPLATE.exe"
 		},
 		{
-			"path" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/executable/GAME_ENGINE_TEMPLATE.pdb"
+			"path" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/executable/GAME_ENGINE_TEMPLATE.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -32,7 +32,7 @@
 			"C:/Qt/6.4.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
 			"C:/Qt/6.4.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
 			"C:/Qt/6.4.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
-			"C:/Users/cleme/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/win/share/cmake-3.23/Modules/CMakeFindDependencyMacro.cmake",
+			"D:/Jetbrains CLION/CLion 2022.3.1/bin/cmake/win/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake",
 			"C:/Qt/6.4.1/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
 			"C:/Qt/6.4.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
 			"C:/Qt/6.4.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake",
@@ -242,7 +242,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -fdiagnostics-color=always"
 				},
 				{
 					"fragment" : "-std=gnu++23"
@@ -299,11 +299,11 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/cmake-build-debug/GAME_ENGINE_TEMPLATE_autogen/include"
+					"path" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/cmake-build-debug/GAME_ENGINE_TEMPLATE_autogen/include"
 				},
 				{
 					"backtrace" : 32,
-					"path" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/GAME_ENGINE_TEMPLATE"
+					"path" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/GAME_ENGINE_TEMPLATE"
 				},
 				{
 					"backtrace" : 32,
@@ -318,22 +318,18 @@
 					"path" : "C:/msys64/mingw64/include/GL"
 				},
 				{
-					"backtrace" : 35,
-					"path" : "C:/Qt/6.4.1/mingw81_64/include"
+					"backtrace" : 2,
+					"path" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/glad/include"
 				},
 				{
-					"backtrace" : 2,
-					"path" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/glad/include"
+					"backtrace" : 35,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.4.1/mingw_64/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.4.1/mingw_64/include/QtWidgets"
-				},
-				{
-					"backtrace" : 2,
-					"isSystem" : true,
-					"path" : "C:/Qt/6.4.1/mingw_64/include"
 				},
 				{
 					"backtrace" : 2,
@@ -372,12 +368,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "GAME_ENGINE_TEMPLATE_autogen::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 2,
 			"id" : "glad::@eac475c4e9e187b33184"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "GAME_ENGINE_TEMPLATE_autogen::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "GAME_ENGINE_TEMPLATE_autogen_timestamp_deps::@6890427a1f51a3e7e1df"

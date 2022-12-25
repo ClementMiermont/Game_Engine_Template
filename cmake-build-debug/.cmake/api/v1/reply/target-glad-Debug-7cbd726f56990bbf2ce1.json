@@ -66,14 +66,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/GAME_ENGINE_TEMPLATE"
+					"path" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/GAME_ENGINE_TEMPLATE"
 				},
 				{
 					"backtrace" : 3,
@@ -89,7 +89,7 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "E:/Bibliotheque_Jeu_Video/ProjetsCLION/GAME_ENGINE_TEMPLATE/glad/include"
+					"path" : "D:/PROJECT_LIBRARY/CLION/GAME_ENGINE_TEMPLATE/glad/include"
 				}
 			],
 			"language" : "C",
