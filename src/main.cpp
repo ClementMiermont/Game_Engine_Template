@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include "glad/glad.h"
 #include <GLFW/glfw3.h>
+#include <cmath>
 
 using namespace std;
 
@@ -18,14 +19,15 @@ static const GLchar * vertex_Shader_Source =
 
 static const GLchar * fragment_Shader_Source =
         "#version 120 \n"
+        "uniform vec3 color;\n"
         "void main() {\n"
-        " gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);\n"
+        " gl_FragColor = vec4(color, 1.0);\n"
         "}\n";
 
 static GLfloat vertices[] = {
-    0.0, 0.8,
-        -0.8, -0.8,
-        0.8, -0.8,
+    0.0, 0.5,
+        -0.5, -0.5,
+        0.5, -0.5,
 };
 
  GLuint common_get_shader_program(
@@ -98,11 +100,14 @@ static GLfloat vertices[] = {
 int main(void)
 {
 
+    GLint color_location;
     GLint attribute_coord2d;
     GLuint program, vbo;
     SDL_Event event;
     SDL_GLContext gl_context;
     SDL_Window * window = nullptr;
+
+    srand (time(NULL));
 
     glfwInit();
 
@@ -140,6 +145,8 @@ int main(void)
     //Shader setup
     program = common_get_shader_program(vertex_Shader_Source, fragment_Shader_Source);
     attribute_coord2d = glGetAttribLocation(program, "coord2d");
+    color_location = glGetUniformLocation(program, "color");
+
 
     // Buffer setup //
     glGenBuffers(1, &vbo);
@@ -155,19 +162,30 @@ int main(void)
 
     glUseProgram(program);
     glViewport(0, 0, WIDTH, HEIGHT);
-    glClearColor(1.0f, 1.0f, 0.0f, 1.0f);
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
+    Uint32 start_time = SDL_GetTicks();
 
-    bool mouseIsInWindow = false;
     bool softwareIsRunning = true;
+
+    float r = (float)rand() / RAND_MAX;
+    float g = (float)rand() / RAND_MAX;
+    float b = (float)rand() / RAND_MAX;
     while(softwareIsRunning == true)
     {
+        float time = (SDL_GetTicks() - start_time) / 2000.0f;
+
+        r = 0.5f + 0.5f * sin(time);
+        g = 0.5f + 0.5f * sin(time * M_PI + 2.0f);
+        b = 0.5f + 0.5f * sin(time * M_PI + 4.0f);
 
 
-        //glClear(GL_COLOR_BUFFER_BIT);
+        glUniform3f(color_location, r, g, b);
+
+
+        glClear(GL_COLOR_BUFFER_BIT);
         glEnableVertexAttribArray(attribute_coord2d);
         glDrawArrays(GL_TRIANGLES, 0, 3);
-        glDisableVertexAttribArray(attribute_coord2d);
         SDL_GL_SwapWindow(window);
 
         while(SDL_PollEvent(&event))
@@ -188,38 +206,10 @@ int main(void)
                 bool softwareIsRunning = false;
                 return EXIT_SUCCESS;
             }
-            // Change random color by pressing enter key
-           /* if (event.type == SDL_KEYDOWN && event.key.keysym.sym == SDLK_RETURN)
-            {
-                glClearColor((float)rand() / RAND_MAX, (float)rand() / RAND_MAX, (float)rand() / RAND_MAX, 1.0f);
-                glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
-
-                SDL_GL_SwapWindow(window);
-            }
-*/
-           // change to random color when mouse enters window
-           /*if(event.type == SDL_MOUSEMOTION)
-           {
-               if(mouseIsInWindow == false)
-               {
-                   glClearColor((float)rand() / RAND_MAX, (float)rand() / RAND_MAX, (float)rand() / RAND_MAX, 1.0f);
-                   glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
-                   SDL_GL_SwapWindow(window);
-                   mouseIsInWindow = true;
-                   cout << "Mouse entered window" << endl;
-               }
-           }
-           else
-           {
-               mouseIsInWindow = false;
-               //cout << "Mouse left window so boolean mouseIsInWindow is false" << endl;
-           }*/
 
         }
     }
-
     //cleanup
-
 }
 
 
